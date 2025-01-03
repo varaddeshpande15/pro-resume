@@ -232,6 +232,9 @@ const Input = () => {
             Compile Resume
           </button>
         </form>
+        <div>
+            sushant
+        </div>
       </div>
 
       {/* Right Section (Compiled Resume) */}
