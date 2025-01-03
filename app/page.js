@@ -1,6 +1,7 @@
 // Latest Code - doing modifications
 "use client";
-import ResumeForm from './components/resumeForm';
+
+import Input from './components/Input';
 import Home from './components/extractText';
 import CodeGen from './components/latexCodeGenerator';
 import { useState } from 'react';
@@ -12,7 +13,7 @@ import linkedinupload from './components/linkedinuploadcompile';
 export default function Page() {
   return(
   <div>
-  <ResumeForm />
+    <Input />
   <Home />
   <CodeGen />
   <Upload />
